@@ -1,0 +1,234 @@
+*{
+  /* left: 0;
+  top: 0; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #333;
+  box-sizing: border-box;
+}
+
+/* #id --> main */
+#main{
+  display: flex;
+  column-gap: 5px;
+  margin: 8px 1rem;
+  
+
+}
+
+/* #id --> humberger */
+
+#humberger{
+  top: 10px;
+  left: 0;
+  width: 35px;
+  height: 40px;
+  border: 3px solid white;
+  border-radius: 7px;
+  background-color: black;
+
+  z-index: 1;
+
+}
+/* inside humberger --> id line */
+
+#humberger #line  b hr{
+  width: 20px;
+  line-height: 4px;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* hover effect on humberger */
+
+#humberger:hover{
+   cursor: pointer;
+}
+
+/* id --> logo */
+#logo{
+  margin-top: -20px;
+  padding-top: 0px;
+  margin-left: 10px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+/* logo colors */
+#logo h2 #one{
+  color: red;;
+}
+#logo h2 #two{
+  color: green;
+}
+#logo h2 #three{
+  color: blue;
+}
+#logo h2 #four{
+  color: yellow;
+}
+#logo h2 #five{
+  color: orange;
+}
+#logo h2 #six{
+  color: blueviolet;
+}
+
+/* id -> menu */
+#menu{
+  box-sizing: border-box;
+  
+}
+#menu select{
+  width: 130px;
+  height: 30px;
+  color: black;
+  background-color: silver;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+/* menu -> select -> options */
+#menu select option{
+  background-color: white;
+  color: black;
+
+}
+
+/* hover effect on select.. */
+#menu select:hover{
+  cursor: pointer;
+  border: 3px solid orange;
+  border-radius: 5px;
+}
+/* input label... */
+#menu input{
+  height: 30px;
+  margin-left: -6px;
+  width: 600px;
+  color: black;
+  background-color: white;
+
+}
+/* button --> id --> search icon */
+#menu #search-icon{
+  margin-left: -6px;
+  height: 29.5px;
+  width: 35px;
+  color: black;
+  background-color: orange;
+}
+/* search icon */
+#menu #search-icon i {
+  background-color: orange; 
+}
+
+/* id --> sign-in */
+#sign-in{
+  width: 150px;
+  margin-left: 9px;
+  margin-top: -15px;
+  
+}
+#sign-in button{
+  color: white;
+  border: none;
+}
+/* for span in button */
+#sign-in button h4 span{
+  color: orange;
+}
+
+/* id -> orders */
+#order{
+  width: 120px;
+  margin-left: 9px;
+  margin-top: -15px;
+}
+
+/* order's button */
+#order button{
+  color: white;
+  border: none;
+}
+
+#order button h4 span{
+  color: orange;
+}
+/* id prime */
+#prime{
+  width: 70px;
+  margin-left: 9px;
+  margin-top: -15px;
+}
+#prime button{
+  color: white;
+  border: none;
+}
+
+/* id --> cart */
+#cart{
+  width: 120px;
+  margin-left: 9px;
+  margin-top: 2px;
+}
+
+#cart button{
+  padding: 6px;
+  font-size: large;
+  color: orange;
+  border: none;
+}
+
+#cart button span{
+  color: white;
+  font-size: medium;
+}
+
+/* ############################################## */
+
+/*  css for sidebar menu */
+#side_menu_navbar{
+ display: flex;
+ color: white;
+ text-decoration: none;
+ width: 240px;
+ height: 2.5rem;
+ text-align: center;
+ margin-top: 2rem;
+ padding: 8px 1rem;
+ 
+}
+/* for user circle menu */
+#side_menu_navbar i{
+  font-size: larger;
+  background-color: white;
+}
+/* heading in sidebar menu */
+
+
+#display_side_menu a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  width: 350px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  
+}
+
+#display_side_menu a:hover{
+  color: blue;
+  background-color: orange;
+ 
+}
+#display_side_menu{
+  
+  width: 350px;
+  background-color: white;
+  margin-left: -900px;
+  margin-top: -2rem;
+}
