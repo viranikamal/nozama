@@ -170,7 +170,7 @@
 /* id --> cart */
 #cart{
   width: 120px;
-  margin-left: 9px;
+  margin-left: 20px;
   margin-top: 2px;
 }
 
@@ -220,15 +220,279 @@
   
 }
 
-#display_side_menu a:hover{
-  color: blue;
-  background-color: orange;
- 
+#display_side_menu #side_menu_navbar:hover{
+  
+  color: black;
+  background-color: white;
 }
+
+#display_side_menu a:hover{
+  background-color: orange;
+  color: black;
+}
+
 #display_side_menu{
   
   width: 350px;
   background-color: white;
   margin-left: -900px;
   margin-top: -2rem;
+  z-index: 5;
+  position: relative;
+}
+
+/* ####################################### */
+/* for id -->  navbar */
+#navbar{
+  display: flex;
+  margin-top: -540px;
+  z-index: 1;
+  position: relative;
+  border: none;
+  column-gap: 8px;
+  
+  height: 100%;
+  background-color: rgb(50, 42, 58);
+}
+
+/*  for id --> location */
+#location #lct{
+   width: 140px;
+   padding: 8px 0;
+   color: white;
+   height: 100%;
+   border: none;
+   background-color: rgb(50, 42, 58);
+}
+#location #lct i{
+  background-color: rgb(50, 42, 58);
+}
+
+/*  id --> best sellers */
+#best_seller button a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   background-color: rgb(50, 42, 58);
+}
+/* hover effects */
+#best_seller button a:hover{
+  cursor: pointer;
+  color: red;
+}
+/* button of #best_seller */
+#best_seller button{
+  width: 150px; 
+  height: 100%;
+  padding: 0px 40px;
+  border:  none;
+  background-color: rgb(50, 42, 58);
+}
+
+/* id --> gift ideas */
+#gift_ideas button a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(50, 42, 58);
+}
+/* hover effects */
+#gift_ideas button a:hover{
+ cursor: pointer;
+ color: red;
+}
+/* button of #gift ideas */
+#gift_ideas button{
+ width: 150px; 
+ height: 100%;
+ padding: 0px 20px;
+ border:  none;
+ background-color: rgb(50, 42, 58);
+}
+
+/* id --> new release */
+#new_releases button a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color:rgb(50, 42, 58);
+}
+/* hover effects */
+#new_releases button a:hover{
+ cursor: pointer;
+ color: red;
+}
+/* button of #new release */
+#new_releases button{
+ width: 150px; 
+ height: 100%;
+ padding: 0px 20px;
+ border:  none;
+ background-color: rgb(50, 42, 58);
+}
+
+/* id --> deal store */
+#deal_store button a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(50, 42, 58);
+}
+/* hover effects */
+#deal_store button a:hover{
+ cursor: pointer;
+ color: red;
+}
+/* button of #deal_store */
+#deal_store button{
+ width: 150px; 
+ height: 100%;
+ padding: 0px 20px;
+ border:  none;
+ background-color: rgb(50, 42, 58);
+}
+
+/* id --> electonics */
+#electronics button a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(50, 42, 58);
+}
+/* hover effects */
+#electronics button a:hover{
+ cursor: pointer;
+ color: red;
+}
+/* button of #electronics */
+#electronics button{
+ width: 150px; 
+ height: 100%;
+ padding: 0px 20px;
+ border:  none;
+ background-color: rgb(50, 42, 58);
+}
+
+/* id --> customer services */
+#customer_services button a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(50, 42, 58);
+}
+/* hover effects */
+#customer_services button a:hover{
+ cursor: pointer;
+ color: red;
+}
+/* button of #customer services */
+#customer_services button{
+ width: 140px; 
+ height: 100%;
+ padding: 0px 40px;
+ border:  none;
+ background-color: rgb(50, 42, 58);
+}
+
+/* id --> books */
+#books button a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(50, 42, 58);
+}
+/* hover effects */
+#books button a:hover{
+ cursor: pointer;
+ color: red;
+}
+/* button of #books */
+#books button{
+ width: 250px; 
+ height: 100%;
+ padding: 0px 40px;
+ border:  none;
+ background-color: rgb(50, 42, 58);
+}
+
+/* location box.. */
+#location_box{
+  border: 1px solid white;
+  color: white;
+  width: 500px;
+  height: 260px;
+  background-color: white;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  display: none;
+}
+/* location box remove button link */
+#location_box  #header_location_box #remove a{
+  text-decoration: none;
+  color: white;
+  background: red;
+
+}
+/* location box's remove button */
+#location_box  #header_location_box #remove{
+  float: right;
+  margin-top: -60px;
+  background: red;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+/* id --> header_location_box */
+#location_box #header_location_box{
+  border: 1px  rgb(208, 198, 198) solid;
+  background-color: rgb(208, 198, 198);;
+  height: 50px;
+
+}
+
+#location_box #header_location_box h5{
+  margin-top: 20px;
+  background-color: rgb(208, 198, 198);
+  color: black;
+  padding-left: 1rem;
+}
+/* id --> location_box_info */
+#location_box #location_box_info{
+  background-color: white;
+}
+#location_box #location_box_info  p {
+  font-size: small;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+}
+
+
+#location_box #location_box_info #sign_address{
+  background-color: orange;
+  padding: 1rem;
+  width: 400px;
+  margin-left: 2.8rem;
+}
+
+#location_box #location_box_info #country_names{
+  background-color: rgb(208, 198, 198);
+  padding: 1rem;
+  width: 400px;
+  margin-left: 2.8rem;
+  
+}
+
+#location_box #location_box_info #country_names option{
+  background-color: rgb(208, 198, 198);
+  padding: 1rem;
+  width: 400px;
+  margin-left: 2.8rem;
+  
 }

@@ -1,0 +1,129 @@
+@media (max-width: 1599px) and (min-width: 400px){
+
+  #humberger{
+    width: 45px;
+  }
+  /* id -> menu */
+  #menu{
+    box-sizing: border-box;
+    display: inline-flex;
+  }
+  #menu select{
+    width: 130px;
+    height: 30px;
+    color: black;
+    background-color: silver;
+    margin-left: 30px;
+    margin-top: 0.5px;
+  }
+
+  /* input label... */
+  #menu input{
+    height: 30px;
+    margin-left: -6px;
+    width: 550px;
+    color: black;
+    background-color: white;
+  
+  }
+  /* button --> id --> search icon */
+  #menu #search-icon{
+    margin-left: -6px;
+    height: 29.5px;
+    width: 35px;
+    color: black;
+    margin-top: 0.5px;
+    background-color: orange;
+  }
+
+  
+ 
+  /* ####################################### */
+  /* for id -->  navbar */
+  #navbar{
+    display: flex;
+    margin-top: -560px;
+    z-index: 1;
+    position: relative;
+    border: none;
+    column-gap: 2px;
+    height: 100%;
+    background-color: rgb(50, 42, 58);
+  }
+  
+  /*  for id --> location */
+  #location #lct{
+     width: 140px;
+     padding: 8px 0;
+     color: white;
+     height: 100%;
+     border: none;
+     background-color: rgb(50, 42, 58);
+  }
+ 
+  /* button of #best_seller */
+  #best_seller button{
+    width: 150px; 
+    height: 100%;
+    padding: 0px 40px;
+    border:  none;
+    background-color: rgb(50, 42, 58);
+  }
+
+  /* button of #gift ideas */
+  #gift_ideas button{
+   width: 150px; 
+   height: 100%;
+   padding: 0px 30px;
+   border:  none;
+   background-color: rgb(50, 42, 58);
+  }
+
+  /* button of #new release */
+  #new_releases button{
+   width: 250px; 
+   height: 100%;
+   padding: 0px 40px;
+   border:  none;
+   background-color: rgb(50, 42, 58);
+  }
+ 
+  /* button of #deal_store */
+  #deal_store button{
+   width: 200px; 
+   height: 100%;
+   margin-left: -8px;
+   padding: 0px 40px;
+   border:  none;
+   background-color: rgb(50, 42, 58);
+  }
+
+  /* button of #electronics */
+  #electronics button{
+   width: 150px; 
+   height: 100%;
+   padding: 0px 40px;
+   border:  none;
+   margin-left: -8px;
+   background-color: rgb(50, 42, 58);
+  }
+
+  #customer_services button{
+    margin-left: -8px;
+    width: 250px;
+  }
+  
+  #books button{
+    margin-left: -8px;
+    width: 150px;
+    
+  }
+ 
+
+  /* id --> highlight */
+  #highlight{
+    display: none;
+  }
+
+  
+}
