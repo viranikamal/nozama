@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nozama Registration</title>
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="/nozma/registration_form.css">
+</head>
+<body>
+  <div id="all_page">
+  <div id="logo">
+    <h2><span id="one">N</span><span id="two">o</span><span id="three">z</span><span id="four">a</span><span id="five">m</span><span id="six">a</span>
+    </h2>
+  </div>
+  <form id="registration_form">
+    <div><h2>Create Account</h2></div>
+    <br>
+    <br>
+    <div id="name">
+      <label for="name"><b>Your name</b></label><br>
+      <input type="text" name="name" id="customer_name">
+    </div>
+      <br>
+      <div id="mb_number">
+      <label for="mobile"><b>Mobile Number</b></label><br>
+      <div id="mbl_number">
+      <div id="mobile_nb">
+        <select id="number_country">
+          <option>Afghanistan +93</option>
+          <option>Brazil +55</option>
+          <option>Canada +1</option>
+          <option>Denmark +45</option>
+          <option>Egypt +20</option>
+          <option>Fiji +679</option>
+          <option>Germany +49</option>
+          <option>Hong Kong +852</option>
+          <option>India +91</option>
+          <option>Japan +81</option>
+        </select>
+      </div>
+      <div id="number">
+        <input type="number" name="number" id="num" min="1000000000" max="9999999999" placeholder="Mobile number">
+      </div>
+    </div>
+    </div>
+    <br>
+
+    <div id="email">
+      <label for="email"><b>Email(optional)</b></label><br>
+      <input type="email" name="email" id="email_id">
+    </div>
+    <br>
+    <div id="password">
+      <label for="password"><b>Password</b></label><br>
+      <input type="password" id="pass_word" min="6" max="9" placeholder="at least 6 characters">
+    </div>
+    <br>
+    <i class="fas fa-info"> password must be at least 6 characters.</i>
+    <br>
+    <br>
+    <p>
+      we will send you a text to verify your phone. Message and Data rates may apply.
+    </p>
+
+    <br>
+    <button type="submit" id="submit">Continue</button>
+    <br><br>
+   <hr>
+   <br><br>
+   <p>Already have an account? <a href="#">Sign in</a> </p>
+    
+  </form>
+</div>
+<script src="/nozma/registration_form.js"></script>
+</body>
+</html>

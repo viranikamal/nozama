@@ -125,5 +125,28 @@
     display: none;
   }
 
-  
+}
+
+
+/* sign-form */
+#sign-form{
+  width: 60%;
+}
+
+/* your list and your account */
+#sign-form #list_and_account #your_list{
+  margin-left: 0rem;
+}
+
+#sign-form #list_and_account #your_account{
+  margin-right: 0rem;
+}
+#sign-form #list_and_account #your_list , #sign-form #list_and_account #your_account{
+  background-color: white;
+}
+
+/* #sign-form #list_and_account #vertical_line */
+#sign-form #list_and_account #vertical_line{
+  height: 490px;
+  border: 0.2px solid black;
 }

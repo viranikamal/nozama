@@ -4,10 +4,14 @@ const display_menu = document.getElementById('display_side_menu');
 const location_button = document.querySelector('#lct');
 const location_box = document.getElementById('location_box');
 const remove = document.querySelector('#remove');
+const signin_btn = document.querySelector('#reg_form_btn')
+const sign_form = document.getElementById('sign-form');
+const body = document.getElementById("body");
 // Events...
 hum_menu.addEventListener('click' , funOne);
 location_button.addEventListener('click' , funTwo);
 remove.addEventListener('click' , funThree);
+signin_btn.addEventListener('click' , funFour);
 // function..
 function funOne(e){
   e.preventDefault();
@@ -34,3 +38,13 @@ function funThree(e){
   e.preventDefault();
  location_box.style.display = "none";
 }
+
+// funFour function..
+function funFour(e){
+  e.preventDefault();
+  sign_form.style.display = "block";
+  setTimeout(function(){
+    sign_form.style.display = "none";
+  },20000)
+}
+

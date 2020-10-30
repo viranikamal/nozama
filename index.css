@@ -496,3 +496,90 @@
   margin-left: 2.8rem;
   
 }
+
+/* sign-form */
+#sign-form{
+
+  background-color: white;
+  width: 60%;
+  display: none;
+  margin-left: 750px;
+  position: relative;
+  z-index: 4;
+  margin-top: -55px;
+}
+
+/* sign-form --> #sign_in */
+#sign-form #sign_form_header #sign_in{
+  width: 170px;
+  height: 35px;
+  background-color: orange;
+  margin-top: 8px;
+ 
+}
+/* sign-form --> #sign_form_header */
+#sign-form #sign_form_header{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  align-items: center;
+  background-color: white;
+}
+
+/* #sign-form --> #sign_form_header --> #new_guest */
+#sign-form #sign_form_header #new_guest{
+  color: black;
+  font-size: small;
+  background-color: white;
+}
+
+/* #sign-form --> #sign_form_header --> #start_here*/
+#sign-form  #sign_form_header #start_here{
+  color: blue;
+  text-decoration: none;
+  cursor: pointer; 
+  background-color: white;
+}
+
+/* sign-from --> list and account  */
+#sign-form #list_and_account{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+/* list and account --> h4 */
+#sign-form #list_and_account h4{
+  color: gray;
+  background-color: white;
+}
+
+#sign-form #list_and_account a{
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size: small;
+  background-color: white;
+}
+
+/* hover effect */
+#sign-form #list_and_account a:hover{
+  color: red;
+}
+
+/* your list and your account */
+#sign-form #list_and_account #your_list{
+  margin-left: 4rem;
+}
+
+#sign-form #list_and_account #your_account{
+  margin-right: 8rem;
+}
+#sign-form #list_and_account #your_list , #sign-form #list_and_account #your_account{
+  background-color: white;
+}
+
+/* #sign-form #list_and_account #vertical_line */
+#sign-form #list_and_account #vertical_line{
+  height: 480px;
+  border: 1px solid black;
+}
