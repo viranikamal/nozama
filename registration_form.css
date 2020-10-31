@@ -103,6 +103,17 @@
   height: 100%;
   border-radius: 5%;
 }
+
+#registration_form a{
+  text-decoration: none;
+  color: orange;
+}
+
+#registration_form a:hover{
+  cursor: pointer;
+  color: red;
+}
+
 #password ::placeholder ,#number ::placeholder{
   color: white;
 }

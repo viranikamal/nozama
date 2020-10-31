@@ -8,6 +8,7 @@ const main = document.getElementById('registration_form');
 
 // addEventListner..
 main.addEventListener('submit' , submit_form);
+
 // function submit_form..
 function submit_successful(){
      
@@ -74,5 +75,3 @@ function submit_form(e){
   
 }
 
-
-// sign in remaining..

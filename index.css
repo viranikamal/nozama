@@ -501,21 +501,24 @@
 #sign-form{
 
   background-color: white;
-  width: 60%;
+  width: 50%;
   display: none;
-  margin-left: 750px;
+  margin-left: 650px;
   position: relative;
   z-index: 4;
   margin-top: -55px;
 }
 
 /* sign-form --> #sign_in */
-#sign-form #sign_form_header #sign_in{
-  width: 170px;
-  height: 35px;
+
+
+#sign-form #sign_form_header  #sign_in{
+  color: black;
+  text-decoration: none;
   background-color: orange;
   margin-top: 8px;
- 
+  padding: 6px 60px;
+  
 }
 /* sign-form --> #sign_form_header */
 #sign-form #sign_form_header{
