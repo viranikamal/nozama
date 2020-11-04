@@ -505,7 +505,7 @@
   display: none;
   margin-left: 650px;
   position: relative;
-  z-index: 4;
+  z-index: 9;
   margin-top: -55px;
 }
 
@@ -585,4 +585,188 @@
 #sign-form #list_and_account #vertical_line{
   height: 480px;
   border: 1px solid black;
+}
+
+/* image */
+#Image_01 img{
+ height: 400px;
+ width: 1500px;
+}
+/* all holiday boxs.. */
+#All-holiday{
+  display: flex;
+}
+
+/* id --> holiday */
+#holiday #image-box-one , #holiday #image-box-two{
+  display: flex;
+  margin-left: 1.5rem;
+  background-color:  rgb(245, 242, 237);
+  margin-right: 1.5rem;
+}
+/* images */
+#holiday #image-box-one img, #holiday #image-box-two img{
+  width: 160px;
+  height: 150px;
+  border: 1px solid black;
+  margin: 8px;
+  
+}
+/* id --> holiday => id --> holiday-one */
+#holiday #holiday-one{
+  color: black;
+  margin-left: 4.3rem;
+  background-color:  rgb(245, 242, 237);
+  padding-top: 0.6rem;
+  margin-right: 4.3rem;
+}
+
+#holiday #holiday-one h3{
+  background-color:  rgb(245, 242, 237);
+}
+#holiday{
+  border: none;
+  width: 400px;
+  background-color:  rgb(245, 242, 237);
+  padding-bottom: 1rem;
+  margin-left: 0.5rem;
+  border-radius: 40px;
+  
+}
+#holiday:hover{
+  box-shadow: white 4px 4px 2px;
+}
+
+#holiday a{
+  background-color: rgb(245, 242, 237);
+  text-decoration: none;
+  color: black;
+  margin-left: 9rem;
+}
+/* holiday dash */
+
+#All-holiday #holiday-dash{
+  border: none;
+  width: 400px;
+  background-color:  rgb(245, 242, 237);
+  padding-bottom: 1rem;
+  border-radius: 40px;
+  margin-left: 0.5rem;
+}
+#All-holiday #holiday-dash:hover{
+  box-shadow: white 4px 4px 2px;
+}
+
+#All-holiday #holiday-dash #image-box-three{
+  background-color:  rgb(245, 242, 237);
+}
+
+#All-holiday #holiday-dash #image-box-three img{
+  width: 380px;
+  height: 320px;
+  border: 1px solid black;
+  margin: 8px;
+  
+}
+
+#All-holiday #holiday-dash #holiday-two{
+  color: black;
+  margin-left: 5rem;
+  background-color:  rgb(245, 242, 237);
+  padding-top: 0.6rem;
+  margin-right: 5rem;
+}
+
+#All-holiday #holiday-dash #holiday-two h3{
+  background-color:  rgb(245, 242, 237);
+}
+
+#All-holiday #holiday-dash a{
+  background-color: rgb(245, 242, 237);
+  text-decoration: none;
+  color: black;
+  margin-left: 9rem;
+}
+
+/* holiday toy */
+#All-holiday #holiday-toy{
+  border: none;
+  width: 400px;
+  background-color:  rgb(245, 242, 237);
+  padding-bottom: 1rem;
+  border-radius: 40px;
+  margin-left: 0.5rem;
+}
+
+#All-holiday #holiday-toy:hover{
+  box-shadow: white 4px 4px 2px;
+}
+
+#All-holiday #holiday-toy #image-box-four{
+  background-color:  rgb(245, 242, 237);
+}
+
+#All-holiday #holiday-toy #image-box-four img{
+  width: 380px;
+  height: 320px;
+  border: 1px solid black;
+  margin: 8px;
+}
+
+
+#All-holiday #holiday-toy #holiday-three{
+  color: black;
+  margin-left: 6.5rem;
+  background-color:  rgb(245, 242, 237);
+  padding-top: 0.6rem;
+  margin-right: 6.5rem;
+}
+
+#All-holiday #holiday-toy #holiday-three h3{
+  background-color:  rgb(245, 242, 237);
+}
+
+#All-holiday #holiday-toy a{
+  background-color: rgb(245, 242, 237);
+  text-decoration: none;
+  color: black;
+  margin-left: 9rem;
+}
+
+/* sign in securely */
+#All-holiday #signin-and-img #signin-securely{
+  border: none;
+  width: 250px;
+  background-color:  rgb(245, 242, 237);
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  border-radius: 20px;
+}
+
+#All-holiday #signin-and-img #signin-securely h3{
+  background-color:  rgb(245, 242, 237);
+  margin-left: 1rem;
+  padding-top: 1rem;
+  margin-right: 1rem;
+}
+
+#All-holiday #signin-and-img #signin-securely #signin-securely-btn{
+  background-color: rgb(240, 184, 80);
+  width: 200px;
+  margin-left: 1.5rem;
+  padding: 0.7rem 1rem;
+}
+
+#All-holiday #signin-and-img #signin-securely #signin-securely-btn a{
+  background-color:  rgb(240, 184, 80);
+  text-decoration: none;
+  color: black;
+}
+
+#All-holiday #signin-and-img #handmade-img{
+  margin-left: 1rem;
+}
+#All-holiday #signin-and-img #handmade-img img{
+  width: 250px;
+  height: 200px;
 }

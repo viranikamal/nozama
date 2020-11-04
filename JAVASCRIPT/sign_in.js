@@ -4,7 +4,6 @@ const login = document.getElementById('sign_nozama_form');
 
 login.addEventListener('submit', login_form);
 
-
 // sign in....
 function login_form(e) {
   e.preventDefault();
@@ -21,6 +20,7 @@ function login_form(e) {
       para.remove();
     }, 3000);
   }
+
   else {
     var info = JSON.parse(localStorage.getItem('info'));
     info.forEach(function (infor_mation) {
@@ -39,9 +39,19 @@ function login_form(e) {
           para.remove();
         }, 3000);
 
+         setTimeout(function () {
+        // I just add functionalities. I am not adding webPages.... 
+          location.replace('http://127.0.0.1:5500/nozma/index.html');
+
+         },4000);
+     
+
       }
+
+
       
     });
+
   
   }
 }

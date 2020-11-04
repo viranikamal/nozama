@@ -43,8 +43,11 @@ function funThree(e){
 function funFour(e){
   e.preventDefault();
   sign_form.style.display = "block";
+  document.getElementById('Image_01').style.marginTop = "-541px";
   setTimeout(function(){
     sign_form.style.display = "none";
-  },20000)
+    document.getElementById('Image_01').style.marginTop = "0px";
+  },10000);
+ 
 }
 
