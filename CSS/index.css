@@ -593,7 +593,7 @@
  width: 1500px;
 }
 /* all holiday boxs.. */
-#All-holiday{
+#All-holiday, #All-holiday-2{
   display: flex;
 }
 
@@ -769,4 +769,189 @@
 #All-holiday #signin-and-img #handmade-img img{
   width: 250px;
   height: 200px;
+}
+
+/* id --> All-holiday-2 */
+#All-holiday-2 #epic-deal{
+  border: none;
+  width: 400px;
+  background-color:  rgb(245, 242, 237);
+  padding-bottom: 1rem;
+  border-radius: 40px;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+#All-holiday-2 #epic-deal:hover{
+  box-shadow: white 4px 4px 2px;
+}
+
+#All-holiday-2 #epic-deal #product-img{
+  background-color:  rgb(245, 242, 237);
+}
+
+#All-holiday-2 #epic-deal #product-img img{
+  width: 380px;
+  height: 320px;
+  border: 1px solid black;
+  margin: 8px;
+}
+
+#All-holiday-2 #epic-deal #heading-one{
+  color: black;
+  margin-left: 6.5rem;
+  background-color:  rgb(245, 242, 237);
+  padding-top: 0.6rem;
+  margin-right: 6.5rem;
+
+}
+
+#All-holiday-2 #epic-deal #heading-one h3{
+  background-color:  rgb(245, 242, 237);
+}
+
+#All-holiday-2 #epic-deal #product-info{
+  background-color:  rgb(245, 242, 237);
+}
+
+#All-holiday-2 #epic-deal #product-info #product-info-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  margin-left: 10px;
+}
+#All-holiday-2 #epic-deal #product-info h3{
+  background-color:  rgb(245, 242, 237);
+  margin-top: 0rem;
+  margin-left: 8px;
+}
+#All-holiday-2 #epic-deal #product-info p{
+  font-size: small;
+  background-color:  rgb(245, 242, 237);
+  margin-top: 0rem;
+  margin-left: 8px;
+
+}
+
+
+#All-holiday-2 #epic-deal a{
+  background-color: rgb(245, 242, 237);
+  text-decoration: none;
+  color: black;
+  margin-left: 9rem;
+}
+
+/* electronic */
+#All-holiday-2 #electronics-holiday-gift{
+  border: none;
+  width: 400px;
+  background-color:  rgb(245, 242, 237);
+  padding-bottom: 1rem;
+  border-radius: 40px;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+#All-holiday-2 #electronics-holiday-gift:hover{
+  box-shadow: white 4px 4px 2px;
+}
+
+#All-holiday-2 #electronics-holiday-gift #electronic-img{
+  background-color:  rgb(245, 242, 237);
+}
+
+#All-holiday-2 #electronics-holiday-gift #electronic-img img{
+  width: 380px;
+  height: 320px;
+  border: 1px solid black;
+  margin: 8px;
+}
+
+#All-holiday-2 #electronics-holiday-gift #heading-two{
+  color: black;
+  margin-left: 6.5rem;
+  background-color:  rgb(245, 242, 237);
+  padding-top: 0.6rem;
+  margin-right: 6.5rem;
+ 
+}
+
+#All-holiday-2 #electronics-holiday-gift #heading-two h3{
+  background-color:  rgb(245, 242, 237);
+}
+
+#All-holiday-2 #electronics-holiday-gift a{
+  background-color: rgb(245, 242, 237);
+  text-decoration: none;
+  color: black;
+  margin-left: 10rem;
+}
+
+/* new force of nature */
+#All-holiday-2 #series{
+  border: none;
+  width: 400px;
+  background-color:  rgb(245, 242, 237);
+  padding-bottom: 1rem;
+  border-radius: 40px;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+#All-holiday-2 #series:hover{
+  box-shadow: white 4px 4px 2px;
+}
+
+#All-holiday-2 #series #series-img{
+  background-color:  rgb(245, 242, 237);
+
+}
+
+#All-holiday-2 #series #series-img img{
+  width: 380px;
+  height: 320px;
+  border: 1px solid black;
+  margin: 8px;
+  margin-top: 2rem;
+}
+
+#All-holiday-2 #series #heading-three{
+  color: black;
+  margin-left: 6.5rem;
+  background-color:  rgb(245, 242, 237);
+  padding-top: 0.6rem;
+  margin-right: 6.5rem;
+ 
+}
+
+#All-holiday-2 #series #heading-three h3{
+  background-color:  rgb(245, 242, 237);
+}
+
+#All-holiday-2 #series a{
+  background-color: rgb(245, 242, 237);
+  text-decoration: none;
+  color: black;
+  margin-left: 5rem;
+}
+
+#All-holiday-2 #enjoy-holidays{
+  margin-left: 1rem;
+  margin-top: 1.9rem;
+}
+
+
+#All-holiday-2 #enjoy-holidays #enjoy-img img{
+  width: 250px;
+  height: 225px;
+  border: 1px solid black;
+  margin: 8px;
+}
+
+#All-holiday-2 #enjoy-holidays #thoughts h2{
+  background-color: burlywood;
+  padding: 1rem;
+  border-radius: 20px;
+  color: black;
 }

@@ -1,0 +1,65 @@
+#all-you-need{
+  background-color:  rgb(245, 242, 237);
+  margin-top: 1rem;
+}
+
+#all-you-need #heading-links{
+  display: flex;
+  background-color:  rgb(245, 242, 237);
+}
+
+#all-you-need #heading-links a{
+  text-decoration: none;
+  color: orange;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  background-color:  rgb(245, 242, 237);
+}
+
+#all-you-need #heading-links h3{
+  margin-left: 2rem;
+  background-color:  rgb(245, 242, 237);
+}
+#all-you-need #all-small-images {
+  display: flex;
+  background-color:  rgb(245, 242, 237);
+  
+}
+#all-you-need #all-small-images #small-img-01 img , #all-you-need #all-small-images #small-img-02 img , #all-you-need #all-small-images #small-img-04 img , #all-you-need #all-small-images #small-img-05 img , #all-you-need #all-small-images #small-img-06 img , #all-you-need #all-small-images #small-img-07 img{
+  width: 200px;
+  height: 180px;
+  border-radius: 40px;
+  margin-left: 8px;
+  background-color:  rgb(245, 242, 237);
+  border: 1px solid black;
+}
+
+#all-you-need #all-small-images #small-img-03 img{
+  width: 230px;
+  height: 180px;
+  border-radius: 40px;
+  margin-left: 8px;
+  border: 1px solid black;
+
+}
+
+#all-you-need #all-small-images #small-img-01 h5 , #all-you-need #all-small-images #small-img-02 h5 ,#all-you-need #all-small-images #small-img-03 h5 , #all-you-need #all-small-images #small-img-04 h5 , #all-you-need #all-small-images #small-img-05 h5 , #all-you-need #all-small-images #small-img-06 h5 , #all-you-need #all-small-images #small-img-07 h5{
+  text-align: center;
+  background-color:  rgb(245, 242, 237);
+}
+
+#all-you-need #all-small-images #small-img-01, #all-you-need #all-small-images #small-img-02,#all-you-need #all-small-images #small-img-03, #all-you-need #all-small-images #small-img-04, #all-you-need #all-small-images #small-img-05, #all-you-need #all-small-images #small-img-06, #all-you-need #all-small-images #small-img-07{
+  background-color:  rgb(245, 242, 237);
+}
+
+#all-you-need #all-small-images #small-img-01 p , #all-you-need #all-small-images #small-img-02 p del  , #all-you-need #all-small-images #small-img-06  p del {
+  background-color:  rgb(245, 242, 237);
+  margin-left: 4.5rem;
+}
+#all-you-need #all-small-images #small-img-03 p del{
+  background-color:  rgb(245, 242, 237);
+  margin-left: 5.5rem;
+}
+#all-you-need #all-small-images #small-img-02 p , #all-you-need #all-small-images #small-img-03 p, #all-you-need #all-small-images #small-img-06  p{
+  background-color:  rgb(245, 242, 237);
+}
