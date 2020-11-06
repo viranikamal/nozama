@@ -5,6 +5,9 @@
   background-color: #333;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 /* #id --> main */
 #main{
@@ -593,7 +596,7 @@
  width: 1500px;
 }
 /* all holiday boxs.. */
-#All-holiday, #All-holiday-2{
+#All-holiday , #new-gift-ideas, #All-holiday-2{
   display: flex;
 }
 

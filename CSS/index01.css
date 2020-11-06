@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 #all-you-need{
   background-color:  rgb(245, 242, 237);
   margin-top: 1rem;
@@ -62,4 +65,252 @@
 }
 #all-you-need #all-small-images #small-img-02 p , #all-you-need #all-small-images #small-img-03 p, #all-you-need #all-small-images #small-img-06  p{
   background-color:  rgb(245, 242, 237);
+}
+
+/* explore new gift ideas */
+
+
+#new-gift-ideas #box-1{
+  border: none;
+  width: 400px;
+  background-color:  rgb(245, 242, 237);
+  padding-bottom: 1rem;
+  border-radius: 40px;
+  margin-left: 0.5rem;
+  margin-top: 0.7rem;
+}
+#new-gift-ideas #box-1:hover{
+  box-shadow: white 4px 4px 2px;
+}
+
+#new-gift-ideas #box-1 #img-1{
+  background-color:  rgb(245, 242, 237);
+}
+
+#new-gift-ideas #box-1 #img-1 img{
+  width: 380px;
+  height: 320px;
+  border: 1px solid black;
+  margin: 8px;
+  margin-top: 1.3rem;
+}
+
+#new-gift-ideas #box-1 #heading-one{
+  color: black;
+  margin-left: 5rem;
+  background-color:  rgb(245, 242, 237);
+  padding-top: 0.6rem;
+  margin-right: 5rem;
+}
+
+#new-gift-ideas #box-1 #heading-one h3{
+  background-color:  rgb(245, 242, 237);
+}
+
+#new-gift-ideas #box-1 a{
+  background-color: rgb(245, 242, 237);
+  text-decoration: none;
+  color: black;
+  margin-left: 5rem;
+}
+
+#new-gift-ideas #box-2{
+  border: none;
+  width: 400px;
+  background-color:  rgb(245, 242, 237);
+  padding-bottom: 1rem;
+  border-radius: 40px;
+  margin-left: 0.5rem;
+  margin-top: 0.7rem;
+}
+#new-gift-ideas #box-2:hover{
+  box-shadow: white 4px 4px 2px;
+}
+
+#new-gift-ideas #box-2 #img-2{
+  background-color:  rgb(245, 242, 237);
+}
+
+#new-gift-ideas #box-2 #img-2 img{
+  width: 380px;
+  height: 320px;
+  border: 1px solid black;
+  margin: 8px;
+  margin-top: 1.3rem;
+}
+
+#new-gift-ideas #box-2 #heading-one{
+  color: black;
+  margin-left: 5rem;
+  background-color:  rgb(245, 242, 237);
+  padding-top: 0.6rem;
+  margin-right: 5rem;
+}
+
+#new-gift-ideas #box-2 #heading-one h3{
+  background-color:  rgb(245, 242, 237);
+}
+
+#new-gift-ideas #box-2 a{
+  background-color: rgb(245, 242, 237);
+  text-decoration: none;
+  color: black;
+  margin-left: 9rem;
+}
+
+#new-gift-ideas #box-3{
+  border: none;
+  width: 400px;
+  background-color:  rgb(245, 242, 237);
+  padding-bottom: 1rem;
+  border-radius: 40px;
+  margin-left: 0.5rem;
+  margin-top: 0.7rem;
+}
+#new-gift-ideas #box-3:hover{
+  box-shadow: white 4px 4px 2px;
+}
+
+#new-gift-ideas #box-3 #img-3{
+  background-color:  rgb(245, 242, 237);
+}
+
+#new-gift-ideas #box-3 #img-3 img{
+  width: 380px;
+  height: 320px;
+  border: 1px solid black;
+  margin: 8px;
+  
+}
+
+#new-gift-ideas #box-3 #heading-one{
+  color: black;
+  margin-left: 5rem;
+  background-color:  rgb(245, 242, 237);
+  margin-right: 5rem;
+}
+
+#new-gift-ideas #box-3 #heading-one h3{
+  background-color:  rgb(245, 242, 237);
+}
+
+#new-gift-ideas #box-3 a{
+  background-color: rgb(245, 242, 237);
+  text-decoration: none;
+  color: black;
+  margin-left: 9rem;
+}
+#new-gift-ideas #birthday-gifts h3,#new-gift-ideas #birthday-gifts h5{
+  text-align: center;
+  background-color: gray;
+
+}
+#new-gift-ideas #birthday-gifts img{
+  width: 250px;
+  height: 200px;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+
+#new-gift-ideas #birthday-gifts{
+  background-color: gray;
+  margin-top: 3.5rem;
+  width: 300px;
+  height: 350px;
+  margin-left: 0.5rem;
+  border-radius: 20px;
+}
+
+/* grocery */
+#gorcery-gourmet{
+  background-color:  rgb(245, 242, 237);
+  margin-top: 1rem;
+}
+
+#gorcery-gourmet #heading-links{
+  background-color:  rgb(245, 242, 237);
+}
+
+#gorcery-gourmet #heading-links h3{
+  margin-left: 2rem;
+  background-color:  rgb(245, 242, 237);
+  padding-top: 1rem;
+}
+#gorcery-gourmet #all-grocery-images {
+  display: flex;
+  background-color:  rgb(245, 242, 237);
+  
+}
+#gorcery-gourmet #all-grocery-images #grocery-img-01 img ,#gorcery-gourmet #all-grocery-images #grocery-img-02 img,#gorcery-gourmet #all-grocery-images #grocery-img-04 img,#gorcery-gourmet #all-grocery-images #grocery-img-05 img,#gorcery-gourmet #all-grocery-images #grocery-img-06 img,#gorcery-gourmet #all-grocery-images #grocery-img-07 img{
+  width: 200px;
+  height: 180px;
+  border-radius: 10px;
+  margin-left: 8px;
+  background-color:  rgb(245, 242, 237);
+  border: 1px solid black;
+}
+
+#gorcery-gourmet #all-grocery-images #grocery-img-03 img {
+  width: 230px;
+  height: 180px;
+  border-radius: 10px;
+  margin-left: 8px;
+  border: 1px solid black;
+
+}
+#gorcery-gourmet #all-grocery-images #grocery-img-01 ,#gorcery-gourmet #all-grocery-images #grocery-img-02,#gorcery-gourmet #all-grocery-images #grocery-img-03 ,#gorcery-gourmet #all-grocery-images #grocery-img-04,#gorcery-gourmet #all-grocery-images #grocery-img-05,#gorcery-gourmet #all-grocery-images #grocery-img-06,#gorcery-gourmet #all-grocery-images #grocery-img-07{
+  background-color:  rgb(245, 242, 237);
+  padding-bottom: 1rem;
+}
+
+#back-top{
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(230, 210, 173);
+  margin-top: 1rem;
+}
+#back-top a{
+  text-decoration: none;
+  color: black;
+  background-color:  rgb(230, 210, 173);
+}
+
+/* footer */
+footer #all-links{
+  display: flex;
+}
+
+footer #all-links #link-1 {
+  width: 250px;
+  margin-left: 100px;
+}
+footer #all-links #link-2 {
+  width: 250px;
+  margin-left: 50px;
+}
+footer #all-links #link-4{
+  width: 250px;
+  margin-left: 50px;
+}
+
+footer #all-links #link-3{
+  width: 350px;
+  margin-left: 100px;
+}
+footer #all-links #link-1  h3, footer #all-links #link-2 h3 , footer #all-links #link-3 h3 ,footer #all-links #link-4 h3{
+  color: white;
+
+}
+footer #all-links #link-1  a, footer #all-links #link-2 a , footer #all-links #link-3 a ,footer #all-links #link-4 a{
+  text-decoration: none;
+  display: block;
+  color: orange;
+
+}
+#footer-links{
+  text-align: center;
+}
+#footer-links p{
+  background-color: rgb(230, 210, 173);
+  padding: 0.5rem;
 }
