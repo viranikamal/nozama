@@ -41,7 +41,7 @@ function login_form(e) {
 
          setTimeout(function () {
         // I just add functionalities. I am not adding webPages.... 
-          location.replace('http://127.0.0.1:5500/nozma/index.html');
+          location.replace('http://127.0.0.1:5500/index.html');
 
          },4000);
      
