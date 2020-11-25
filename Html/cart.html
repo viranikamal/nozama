@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Menu</title>
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="/CSS/cart.css">
+</head>
+<body>
+  <div class="main">
+    <form id="user_info" action="/action.php">
+    <div class="billings">
+      <div id="headings">
+      <h2>Billing Address</h2>
+    </div>
+    <div id="information">
+      
+      <div class="name">
+        <i class="fa fa-user"> Full Name</i><br>
+      <input type="text" id="user_name" placeholder="John M. Doe">
+    </div>
+
+    <div class="email">
+      <i class="fa fa-envelope"> Email</i><br>
+      <input type="email" name="email" id="user_email" placeholder="john@example.come">
+    </div>
+ 
+
+    <div class="address">
+      <i class="fa fa-address-card"> Address </i><br>
+      <input type="text" name="address" id="user_address" placeholder="542 W. 15th street">
+    </div>
+
+    <div class="city">
+      <i class="fa fa-home"> City</i><br>
+      <input type="text" name="cityname" id="user_cityname" placeholder="New York">
+    </div>
+    <div class="combine">
+      <div id="state">
+        <label for=""><b>State</b></label><br>
+        <input type="text" name="statename" id="user_state" placeholder="NY">
+      </div>
+
+      <div id="code">
+        <label for=""><b>Zip</b></label><br>
+        <input type="number" name="zip" id="user_zipcode" placeholder="10001">
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- payment details.... -->
+    <div class="payments">
+      <div id="headings">
+      <h2>Payment</h2>
+    </div>
+
+    <p>Accepted card </p>
+    <i id="credit" class="fab fa-cc-visa fa-2x"></i> &nbsp; <i id="paypal" class="fab fa-cc-paypal fa-2x"></i> &nbsp; <i  id="mastercard" class="fab fa-cc-mastercard fa-2x"></i> &nbsp; <i id="google-card" class="fab fa-google-wallet fa-2x"></i>
+      <div class="name-on-card">
+        <label for=""><b>Name on Card</b></label><br>
+        <input type="text" name="name" id="user_name_card" placeholder="John More Doe">
+      </div>
+
+      <div class="card_number">
+        <label for=""><b>Credit card number</b></label><br>
+        <input type="text" name="number" id="user_credit_number" max="16" min="16" placeholder="XXXX-XXXX-XXXX-XXXX">
+      </div>
+
+      <div class="month">
+        <label for=""><b>Exp Month</b></label><br>
+        <input type="text" name="card_expiry_month" id="exp_month" placeholder="September" >
+      </div>
+      
+      <div class="combine">
+      <div class="year">
+        <label for=""><b>Exp Year</b></label><br>
+        <input type="text" name="year" id="exp_year" placeholder="2017"> 
+      </div>
+      <div class="cvv">
+        <label for=""><b>CVV</b></label><br>
+        <input type="text" name="year" id="exp_year" placeholder="XXX"> 
+      </div>
+    </div>
+   </div>
+   <label for="">
+    <input type="checkbox"  id="check"> Shipping address same as billing <br>
+  </label> <br>
+    <input type="submit" id="submit" value="continue to checkout">
+  </form>
+  </div>
+</body>
+</html>
