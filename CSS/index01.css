@@ -51,6 +51,14 @@ html{
   background-color:  rgb(245, 242, 237);
 }
 
+#all-you-need #all-small-images #small-img-01 #buy_now , #all-you-need #all-small-images #small-img-02 #buy_now  ,#all-you-need #all-small-images #small-img-03 #buy_now  , #all-you-need #all-small-images #small-img-04 #buy_now  , #all-you-need #all-small-images #small-img-05 #buy_now  , #all-you-need #all-small-images #small-img-06 #buy_now  , #all-you-need #all-small-images #small-img-07 #buy_now {
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 2rem;
+}
+
 #all-you-need #all-small-images #small-img-01, #all-you-need #all-small-images #small-img-02,#all-you-need #all-small-images #small-img-03, #all-you-need #all-small-images #small-img-04, #all-you-need #all-small-images #small-img-05, #all-you-need #all-small-images #small-img-06, #all-you-need #all-small-images #small-img-07{
   background-color:  rgb(245, 242, 237);
 }
