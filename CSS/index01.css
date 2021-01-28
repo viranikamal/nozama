@@ -4,11 +4,14 @@ html{
 #all-you-need{
   background-color:  rgb(245, 242, 237);
   margin-top: 1rem;
+  
+  
 }
 
 #all-you-need #heading-links{
   display: flex;
   background-color:  rgb(245, 242, 237);
+ 
 }
 
 #all-you-need #heading-links a{
